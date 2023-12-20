@@ -12,7 +12,7 @@ MarkovChebishev=setRefClass(
     methods=list(
         markov=function(){
                 avr=mean(listitems)   #average 
-                divided=x/avr # E(x)/a
+                divided=avr/x # E(x)/a
                 return (c(avr,divided))  
         },
     
